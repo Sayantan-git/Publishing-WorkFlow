@@ -1,0 +1,22 @@
+{
+  "name": "publish-workflow-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An offline, interactive explanation of immediate and scheduled menu publishing.",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@fontsource/dm-sans": "^5.2.6",
+    "@fontsource/manrope": "^5.2.6",
+    "@xyflow/react": "^12.8.6",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.10"
+  }
+}
